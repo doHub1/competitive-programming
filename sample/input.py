@@ -6,4 +6,8 @@ a, b, c = map(int, input().split())
 A = [int(x) for x in input().split()]
 
 
+# 文字列
+x, y = map(str, input().split())
+
+
 print(a,b,c,A)
