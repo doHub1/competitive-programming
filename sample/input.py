@@ -6,3 +6,4 @@ a, b, c = map(int, input().split())
 A = [int(x) for x in input().split()]
 
 
+print(a,b,c,A)
