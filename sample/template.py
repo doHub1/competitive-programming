@@ -16,8 +16,12 @@ s = str(input())
 a = int(input())
 
 # A[n]個の改行のある入力を取得
-a = map(int, [input() for i in range(n)])
-print(list(a))
+n = int(input())
+s = []
+for i in range(n):
+    s.append(int(input()))
+print(s[0])
+
 
 # 改行あり、スペースあり
 ###
