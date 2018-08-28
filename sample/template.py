@@ -1,4 +1,12 @@
+###
+Pythonで競技プログラミングする時に知っておきたいtips(入出力編)
 https://qiita.com/lethe2211/items/6cbade2bc547649bc040
+
+複数行を配列にまとめる
+http://suzu6.hatenablog.com/entry/2017/09/21/032926
+
+###
+
 
 # スペース区切りの整数x個の入力
 A = [int(x) for x in input().split()]
@@ -56,11 +64,16 @@ for i in range(N):
 print a
 
 
+###
+Python3系の基礎文法（文字列）
+https://qiita.com/Amtkxa/items/a03dabe050d8c648f098
+###
 
 # for文
 for op1 in ("+","-"):
 for i in range(N-1) :
 for i in range(len(s)):
+
 
 
 
