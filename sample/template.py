@@ -75,5 +75,13 @@ for i in range(N-1) :
 for i in range(len(s)):
 
 
+# 正規表現
+## 検索
+import re
+address = "hogeasdfa 123-7777 東京都千代田区"
+postCode = re.search('[0-9]{3}-[0-9]{4}' , address)
+if postCode:
+    print (postCode.group(0))
 
+## 置換
 
