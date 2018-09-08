@@ -5,9 +5,16 @@ https://qiita.com/lethe2211/items/6cbade2bc547649bc040
 複数行を配列にまとめる
 http://suzu6.hatenablog.com/entry/2017/09/21/032926
 
+
+Python3の文字列操作
+https://qiita.com/Kenta-Han/items/e64035e9c3e4ef08e394
+
+
+
 ###
 
 
+# 入力
 # スペース区切りの整数x個の入力
 A = [int(x) for x in input().split()]
 
@@ -23,12 +30,20 @@ s = str(input())
 # 一つの数字の入力
 a = int(input())
 
-# A[n]個の改行のある入力を取得
+# A[n]個の改行のある数値を取得
 n = int(input())
 s = []
 for i in range(n):
     s.append(int(input()))
 print(s[0])
+
+# N個の改行のある文字列を取得
+N = int(input())
+W = []
+for i in range(N):
+    W.append(str(input()))
+print(W)
+
 
 # 2 * N の配列 https://beta.atcoder.jp/contests/abc034/submissions/2638960
 ###
@@ -61,7 +76,7 @@ N, M = map(int, input().split())
 a = []
 for i in range(N):
     a.append(map(int, input().split()))
-print a
+print (a)
 
 
 ###
