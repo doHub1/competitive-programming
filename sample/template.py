@@ -47,12 +47,12 @@ print(W)
 
 # 2 * N の配列 https://beta.atcoder.jp/contests/abc034/submissions/2638960
 ###
-3 5
+3
 100 15
 300 20
 200 30
 ###
-N,K = map(int,input().split())
+N = int(input())
 W,P = [],[]
 for i in range(N):
     w,p = map(int,input().split())
@@ -97,6 +97,12 @@ address = "hogeasdfa 123-7777 東京都千代田区"
 postCode = re.search('[0-9]{3}-[0-9]{4}' , address)
 if postCode:
     print (postCode.group(0))
+
+## 
+tel = "03-1111-2222"
+import re
+if re.match('[0-9]{2}-[0-9]{4}-[0-9]{4}', tel):
+    print('OK')
 
 ## 置換
 
