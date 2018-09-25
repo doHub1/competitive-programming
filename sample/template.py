@@ -15,8 +15,11 @@ https://qiita.com/Kenta-Han/items/e64035e9c3e4ef08e394
 
 
 # 入力
-# スペース区切りの整数x個の入力
-A = [int(x) for x in input().split()]
+# 一つの文字列の入力
+s = str(input())
+
+# 一つの数字の入力
+a = int(input())
 
 # 数字複数
 x, y = map(int, input().split())
@@ -24,11 +27,6 @@ x, y = map(int, input().split())
 # 文字列
 x, y = map(str, input().split())
 
-# 一つの文字列の入力
-s = str(input())
-
-# 一つの数字の入力
-a = int(input())
 
 # A[n]個の改行のある数値を取得
 n = int(input())
@@ -43,6 +41,12 @@ W = []
 for i in range(N):
     W.append(str(input()))
 print(W)
+
+# N個のスペース区切りの数値を取得
+N = int(input())
+A = [int(N) for N in input().split()]
+print (A)
+
 
 
 # 2 * N の配列 https://beta.atcoder.jp/contests/abc034/submissions/2638960
