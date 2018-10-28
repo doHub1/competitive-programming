@@ -29,11 +29,13 @@ x, y = map(str, input().split())
 
 
 # A[n]個の改行のある数値を取得
-n = int(input())
-s = []
-for i in range(n):
-    s.append(int(input()))
-print(s[0])
+N = int(input())
+A = []
+for i in range(N):
+    A.append(int(input()))
+print(A) #サンプル表示
+
+
 
 # N個の改行のある文字列を取得
 N = int(input())
@@ -50,12 +52,12 @@ print (A)
 
 
 # 2 * N の配列 https://beta.atcoder.jp/contests/abc034/submissions/2638960
-###
+''' こんな感じ
 3
 100 15
 300 20
 200 30
-###
+'''
 N = int(input())
 W,P = [],[]
 for i in range(N):
