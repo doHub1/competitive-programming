@@ -36,13 +36,13 @@ for i in range(N):
 print(A) #サンプル表示
 
 
-
 # N個の改行のある文字列を取得
 N = int(input())
 W = []
 for i in range(N):
     W.append(str(input()))
 print(W)
+
 
 # N個のスペース区切りの数値を取得
 N = int(input())
@@ -52,7 +52,7 @@ print (A)
 
 
 # 2 * N の配列 https://beta.atcoder.jp/contests/abc034/submissions/2638960
-''' こんな感じ
+''' こんな感じのInput
 3
 100 15
 300 20
@@ -85,14 +85,16 @@ for i in range(N):
 print (a)
 
 
+
+
 ###
 Python3系の基礎文法（文字列）
 https://qiita.com/Amtkxa/items/a03dabe050d8c648f098
 ###
 
 # for文
-for op1 in ("+","-"):
-for i in range(N-1) :
+for op in ("+","-"):
+for i in range(N):
 for i in range(len(s)):
 
 
@@ -110,7 +112,10 @@ import re
 if re.match('[0-9]{2}-[0-9]{4}-[0-9]{4}', tel):
     print('OK')
 
+
 ## 置換
+
+
 
 
 # 便利関数
