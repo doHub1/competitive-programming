@@ -41,7 +41,7 @@ N = int(input())
 W = []
 for i in range(N):
     W.append(str(input()))
-print(W)
+print(W) #サンプル表示
 
 
 # N個のスペース区切りの数値を取得
@@ -70,20 +70,28 @@ print(P)
 
 
 # 改行あり、スペースあり
-###
+### イメージ
 N M
 a11 a12 a13 ... a1M
 a21 a22 a23 ... a2M
 a31 a32 a33 ... a3M
 ...
 aN1 aN2 aN3 ... aNM
-###
-N, M = map(int, input().split())
-a = []
-for i in range(N):
-    a.append(map(int, input().split()))
-print (a)
 
+### 取得方法
+N, M = map(int, input().split())
+matrix = [[0]*M]*N
+for i in range(N):
+    matrix[i] = [int(M) for M in input().split()]
+print (matrix)
+
+### 入力サンプル
+5 7
+4 64 8 32 16 2 4
+2 16 2 2 4 2 2
+32 2 8 8 32 16 32
+32 32 32 64 8 2 8
+2 8 32 16 16 64 8
 
 
 
